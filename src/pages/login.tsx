@@ -51,9 +51,11 @@ const LoginPage: NextPage = () => {
               >
                 로그인
               </button>
-              <button className="w-3/12 p-3 text-xl font-bold rounded-lg bg-[#2D282E]">
-                회원가입
-              </button>
+              <Link href="/signup">
+                <button className="w-3/12 p-3 text-xl font-bold rounded-lg bg-[#2D282E]">
+                  회원가입
+                </button>
+              </Link>
             </div>
           </form>
         </div>
