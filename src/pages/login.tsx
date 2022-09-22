@@ -34,11 +34,13 @@ const LoginPage: NextPage = () => {
               type="text"
               className="py-3 px-5 rounded-lg text-black text-xl focus:outline-none mb-4"
               value={id}
+              name="userId"
               onChange={(e) => handleIdInput(e)}
             />
             <input
               placeholder="비밀번호를 입력해주세요"
               type="password"
+              name="password"
               className="py-3 px-5 rounded-lg text-black text-xl focus:outline-none mb-8"
               value={pw}
               onChange={(e) => handlePwInput(e)}
